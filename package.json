@@ -1,0 +1,11 @@
+{
+  "name": "vuexpanded",
+  "version": "1.0.0",
+  "description": "Boilerplate-free VueX store module generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Meszaroș",
+  "license": "GPL-3.0-or-later"
+}
