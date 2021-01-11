@@ -1,5 +1,5 @@
 {
-  "name": "vuexpanded",
+  "name": "@davidmszrs/vuexpanded",
   "version": "1.0.1",
   "description": "Boilerplate-free VueX store module generator",
   "main": "index.js",
