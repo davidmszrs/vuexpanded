@@ -1,12 +1,15 @@
 import { snakeToPascalCase, toSnakeCase } from "./utils";
 
-export const mapStateToGetters = (vuexState) =>
-  Object.fromEntries(
-    Object.keys(vuexState).map((stateKey) => [
-      stateKey,
-      (state) => state[stateKey],
-    ])
-  );
+export const mapStateToGetters = (vuexState, getters) => ({
+  ...(() =>
+    Object.fromEntries(
+      Object.keys(vuexState).map((stateKey) => [
+        stateKey,
+        (state) => state[stateKey],
+      ])
+    ))(),
+  ...getters,
+});
 
 export const mapStateToMutations = (state, mutations) => ({
   ...(() =>
