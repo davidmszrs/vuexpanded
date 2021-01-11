@@ -8,8 +8,8 @@
   },
   "author": "David Meszaroș",
   "license": "GPL-3.0-or-later",
-  "repository": "git://github.com/davidmszrs/vuexpanded",
+  "repository": "git://github.com/davidmszrs/vuexpanded/",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
